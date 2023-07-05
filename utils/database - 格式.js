@@ -2,9 +2,9 @@ const mysql = require('mysql2');
 
 // create database connection
 const pool = mysql.createPool({ 
-    host:'forthesky.ddns.net', 
+    host:'localhost', 
     user: 'root', 
-    password: 'L77548921',
+    password: '0000',
     database: 'db'
   })
 
